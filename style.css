@@ -1,0 +1,76 @@
+@font-face {
+    font-family: sora;
+    src: url(Sora-Regular.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sora;
+}
+h1 {
+    text-align: center;
+    color: royalblue;
+    margin: 2vh;
+}
+table {
+    border: 2px solid royalblue;
+    margin: auto;
+    border-collapse: collapse;
+}
+thead tr {
+    background-color: royalblue;
+    font-size: 1.1rem;
+    color: white;
+}
+td, th {
+    padding: 12px 20px;
+    border: 1px solid #aaa;
+}
+thead th {
+    padding: 14px 20px;
+}
+tbody tr th button {
+    padding: 5px;
+    font-size: 1rem;
+    background-color: royalblue;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid #00f;
+    box-shadow: 0 0 5px #00f4;
+    margin-right: .5vw;
+    transition: 100ms;
+}
+tbody tr th button:hover {
+    scale: 1.05;
+    transition: 100ms;
+}
+tbody tr th button a {
+    text-decoration: none;
+    color: white;
+    font-family: sora;
+    
+}
+
+.options {
+    display: flex;
+}
+.options img {
+    height: 4vh;
+    width: auto;
+    transition: 100ms
+}
+.options img:hover {
+    scale: 1.2;
+    transition: 100ms;
+}
+
+form {
+    background-color: red;
+
+}
+main {
+    margin: auto;
+}
